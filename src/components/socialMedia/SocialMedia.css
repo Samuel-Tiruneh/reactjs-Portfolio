@@ -1,0 +1,94 @@
+.social-media-div {
+  font-size: 2em;
+}
+
+.icon-button i {
+  color: white;
+}
+.icon-button {
+  margin-bottom: 10px;
+}
+
+.icon-button i {
+  border-radius: 2.6rem;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 1.3rem;
+  height: 2.6rem;
+  line-height: 2.6rem;
+  margin: 0 5px;
+  position: relative;
+  text-align: center;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  width: 2.6rem;
+  margin-bottom: 10px;
+}
+
+.linkedin i {
+  background-color: #333;
+  transition: all 0.2s ease-in-out;
+  box-shadow: 0 5px 15px aqua;
+}
+
+.linkedin i:hover {
+  color: rgba(255, 255, 255, 1);
+  box-shadow: 0 5px 15px gold;
+}
+
+.github i {
+  background-color: #333;
+  transition: all 0.2s ease-in-out;
+  box-shadow: 0 5px 15px aqua;
+}
+
+.github i:hover {
+  color: rgba(255, 255, 255, 1);
+  box-shadow: 0 5px 15px gold;
+}
+
+.google i {
+  background-color: #333;
+  transition: all 0.2s ease-in-out;
+  box-shadow: 0 5px 15px aqua;
+}
+
+.google i:hover {
+  color: rgba(255, 255, 255, 1);
+  box-shadow: 0 5px 15px gold;
+}
+
+.twitter i {
+  background-color: #333;
+  transition: all 0.2s ease-in-out;
+  box-shadow: 0 5px 15px aqua;
+}
+
+.twitter i:hover {
+  color: rgba(255, 255, 255, 1);
+  box-shadow: 0 5px 30px gold;
+}
+
+
+.telegram i {
+  background-color: #333;
+  transition: all 0.2s ease-in-out;
+  box-shadow: 0 5px 15px aqua;
+}
+
+
+.telegram i:hover {
+  color: rgba(255, 255, 255, 1);
+  box-shadow: 0 5px 15px gold;
+}
+
+
+
+/* Media Query */
+@media (max-width: 768px) {
+  .social-media-div {
+    text-align: center;
+  }
+}
